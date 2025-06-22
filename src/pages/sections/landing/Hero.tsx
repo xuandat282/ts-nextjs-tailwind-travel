@@ -23,7 +23,7 @@ const Hero = () => {
       {/* hero */}
       <div className="flex flex-col items-center px-2 xs:px-0">
         <h1 className="text-3xl xs:text-4xl max-w-xs text-slate-100 font-bold text-center md:max-w-lg lg:text-[2.5rem] lg:leading-tight">
-          Get started on planning the best trip ever
+          Journey of discovery and learning
         </h1>
         <div className="mt-6">
           <Link
