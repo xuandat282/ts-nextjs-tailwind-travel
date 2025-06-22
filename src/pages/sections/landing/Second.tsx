@@ -24,7 +24,7 @@ const Second = () => {
               <div className="text-gray-700 text-base lg:text-lg space-y-2 leading-relaxed">
                 <p className="font-bold">SEA & ICE Tour Itinerary</p>
 
-                <p className="font-semibold">DAY 1: A Journey into Knowledge – Living the Fisherman's Way</p>
+                <p className="font-semibold">DAY 1: A Journey into Knowledge – Living the Fisherman&apos;s Way</p>
 
                 <div className="flex"><span className="min-w-[160px] font-semibold">08:00 – 08:15:</span><span className="ml-1">Pick-up at Novotel Hotel</span></div>
                 <div className="flex"><span className="min-w-[160px] font-semibold">08:15 – 08:30:</span><span className="ml-1">Transfer to Ponagar Cham Towers</span></div>
@@ -57,12 +57,6 @@ const Second = () => {
               </div>
             </div>
             <div className="flex gap-x-4">
-              <Link
-                href="/gallery/WorldGallery"
-                className="px-4 py-[0.6rem] lmd:py-3 lmd:px-6 bg-gray-700 text-gray-100 hover:bg-gray-800 transition-all duration-300"
-              >
-                Discover more places
-              </Link>
             </div>
             <div className="bg-gray-200 p-4">
               <p>
