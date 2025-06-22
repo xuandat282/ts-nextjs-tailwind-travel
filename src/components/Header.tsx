@@ -42,19 +42,23 @@ const Header = () => {
         >
           {/* Logo */}
           <div className='flex items-center gap-x-4 order-1 w-[25%] box-border pl-6 lmd:pl-14 lg:pl-24 2xl:pl-16'>
+            {/* Logo hình ảnh */}
             <Link href='/'>
-              <FaPlaneDeparture
-                size={25}
-                color={`${dark ? "#374151" : "#f3f4f6"}`}
+              <img
+                src='/logo.png' // đặt logo trong thư mục /public
+                alt='Oceanica Logo'
+                className='w-8 h-8 object-contain'
               />
             </Link>
+
+            {/* Tên thương hiệu */}
             <Link
               href='/'
-              className={`hidden lg:inline  text-lg sm:text-xl lg:text-[1.375rem] font-bold tracking-wide ${
+              className={`hidden lg:inline text-lg sm:text-xl lg:text-[1.375rem] font-bold tracking-wide ${
                 dark ? "text-gray-700" : "text-gray-100"
               }`}
             >
-              Travel
+              OCEANICA
             </Link>
           </div>
           {/* navigation */}
