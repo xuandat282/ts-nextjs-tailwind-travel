@@ -1,9 +1,28 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import Link from "next/link";
 import Revcard from "@/components/Revcard";
 import myImage from "@/../public/caumuc.jpg";
 
 const Testi = () => {
+const dialogRef = useRef<HTMLDialogElement>(null);
+const dialogReadrw= useRef<HTMLDialogElement>(null);
+  const openDialog = () => {
+    dialogRef.current?.showModal();
+  };
+
+  const closeDialog = () => {
+    dialogRef.current?.close();
+  };
+
+  const openreadreview =()=>{
+    dialogReadrw.current?.showModal();
+  }
+  const closereadreview =()=>{
+    dialogReadrw.current?.close();
+  }
+  
+  
+
   return (
     <section
       id="review"
@@ -26,23 +45,113 @@ const Testi = () => {
           </p>
           <div className="flex items-center gap-x-4">
               {/* Nút viết review */}
-              <Link
-                href="/reviews/write"
-                className="px-4 py-2 border-2 border-gray-700 bg-gray-700 text-gray-100 font-semibold w-fit lg:px-6 lg:py-3"
-              >
-                Write a Review
-              </Link>
+               <button
+          onClick={openDialog}
+          className="px-4 py-2 border-2 border-gray-700 bg-gray-700 text-gray-100 font-semibold rounded"
+        >
+          Write a Review
+        </button>
 
               {/* Nút đọc review */}
-              <Link
-                href="/reviews"
+              <button
+                onClick={openreadreview}
                 className="px-4 py-2 border-2 border-gray-700 text-gray-700 font-semibold w-fit lg:px-6 lg:py-3"
               >
                 Read Reviews
-              </Link>
+              </button>
             </div>
         </div>
+      
+            <dialog
+        ref={dialogRef}
+        className="rounded-lg p-6 w-full max-w-md border-none shadow-lg"
+      >
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-2xl font-bold">Write a Review</h2>
+          <button onClick={closeDialog} className="text-gray-500 hover:text-gray-800">
+          </button>
+        </div>
 
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            // TODO: xử lý submit
+            closeDialog();
+          }}
+          className="space-y-4"
+        >
+          <div>
+            <label className="block text-sm font-medium">Name</label>
+            <input
+              type="text"
+              className="w-full border px-3 py-2 mt-1 rounded"
+              placeholder="Your name"
+              required
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium">Your Review</label>
+            <textarea
+              className="w-full border px-3 py-2 mt-1 rounded resize-none"
+              rows={4}
+              placeholder="Write your experience here..."
+              required
+            />
+          </div>
+          <div className="flex justify-end gap-x-2">
+            <button
+              type="button"
+              onClick={closeDialog}
+              className="px-4 py-2 rounded border hover:bg-gray-100"
+            >
+              Cancel
+            </button>
+            <button
+              type="submit"
+              className="bg-emerald-600 text-white px-4 py-2 rounded hover:bg-emerald-700"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </dialog>
+
+           <dialog
+        ref={dialogReadrw}
+        className="rounded-lg p-6 w-full max-w-md border-none shadow-lg"
+      >
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-2xl font-bold">Read a Review</h2>
+          <button onClick={closeDialog} className="text-gray-500 hover:text-gray-800">
+          </button>
+        </div>
+
+        <form
+          className="space-y-4"
+        >
+          
+          <div>
+            <label className="block text-sm font-medium">All Reviews</label>
+            <textarea
+              className="w-full border px-3 py-2 mt-1 rosnded resize-none"
+              rows={4}
+              placeholder="Does not have anyone here ..... "
+              required
+            />
+          </div>
+          <div className="flex justify-end gap-x-2">
+            <button
+              type="button"
+              onClick={closereadreview}
+              className="px-4 py-2 rounded border hover:bg-gray-100"
+            >
+              Cancel
+            </button>
+          </div>
+        </form>
+      </dialog>
+
+    
         <div className="flex justify-center w-full lmd:w-[47%] lmd:order-1 h-[30rem] items-center bg-[#fefefe]">
           <div className="relative h-[20rem] w-[27rem] lg:w-[33rem]">
             <div className="w-full p-5 card-shadow max-w-[21rem] lg:max-w-[25rem] bg-white z-30 absolute top-0 right-0">
