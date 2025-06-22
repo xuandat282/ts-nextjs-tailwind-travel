@@ -25,19 +25,22 @@ const Testi = () => {
             Share your experience to help other travelers make decisions for their journey with OCEANICA.
           </p>
           <div className="flex items-center gap-x-4">
-            <Link
-              href=""
-              className="px-4 py-2 border-2 border-gray-700 bg-gray-700 text-gray-100 font-semibold w-fit lg:px-6 lg:py-3"
-            >
-              Write a Review
-            </Link>
-            <Link
-              href=""
-              className="px-4 py-2 border-2 border-gray-700 text-gray-700 font-semibold w-fit lg:px-6 lg:py-3"
-            >
-              Read Reviews
-            </Link>
-          </div>
+              {/* Nút viết review */}
+              <Link
+                href="/reviews/write"
+                className="px-4 py-2 border-2 border-gray-700 bg-gray-700 text-gray-100 font-semibold w-fit lg:px-6 lg:py-3"
+              >
+                Write a Review
+              </Link>
+
+              {/* Nút đọc review */}
+              <Link
+                href="/reviews"
+                className="px-4 py-2 border-2 border-gray-700 text-gray-700 font-semibold w-fit lg:px-6 lg:py-3"
+              >
+                Read Reviews
+              </Link>
+            </div>
         </div>
 
         <div className="flex justify-center w-full lmd:w-[47%] lmd:order-1 h-[30rem] items-center bg-[#fefefe]">
