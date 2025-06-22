@@ -25,6 +25,9 @@ const Hero = () => {
   <h1 className="whitespace-nowrap text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] text-slate-100 font-bold text-center">
     Journey of discovery and learning
   </h1>
+  <p className="mt-2 text-sm sm:text-base text-slate-300 text-center max-w-xl">
+    Each step in Tourism is a breath of the Ocean. Sea is not a choice – it is our future.
+  </p>
   <div className="mt-6">
     <Link
       href="/Start"
