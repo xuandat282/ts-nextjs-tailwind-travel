@@ -60,17 +60,16 @@ const Second = () => {
             </div>
             <div className="bg-gray-200 p-4">
               <p>
-                Interested in Travel to be your travel companion on your special
-                moment? Get in touch with our team at{" "}
+                Interested in OCEANICA to be your travel companion on your special moment? Get in touch with our team at{" "}
                 <a href="" className="text-emerald-800 underline">
-                  tripteam@travel.com
+                  oceanicase@travel.com
                 </a>
               </p>
             </div>
           </div>
           {/* image */}
           <div className="w-full lmd:w-[45%] px-6 box-border">
-            <div className="bg-[url('/pg2-2.jpg')] h-[20rem] w-full bg-cover bg-center shadow-2xl lmd:h-3/4 lg:h-[90%] relative">
+            <div className="bg-[url('/infor.jpg')] h-[20rem] w-full bg-cover bg-center shadow-2xl lmd:h-3/4 lg:h-[90%] relative">
               <div className="absolute -bottom-4 -right-4 shadow-2xl border-8 border-gray-200">
                 <Image src="/pg2-4.jpg" alt="" width={200} height={50} />
               </div>
@@ -83,7 +82,7 @@ const Second = () => {
               <MdOutlineTravelExplore size={30} />
               <div>
                 <h3 className="text-3xl sm:text-[2rem] leading-8 font-bold text-gray-700 lmd:text-4xl">
-                  1.4B
+                  120
                 </h3>
                 <p>travellers/month</p>
               </div>
@@ -92,7 +91,7 @@ const Second = () => {
               <SlPeople size={30} />
               <div>
                 <h3 className="text-3xl sm:text-[2rem] leading-8 font-bold text-gray-700 lmd:text-4xl">
-                  4.9M
+                  3k
                 </h3>
                 <p>honest reviews</p>
               </div>
@@ -101,7 +100,7 @@ const Second = () => {
               <IoMdPhotos size={30} />
               <div>
                 <h3 className="text-3xl sm:text-[2rem] leading-8 font-bold text-gray-700 lmd:text-4xl">
-                  329.6k
+                  10.6k
                 </h3>
                 <p>photos</p>
               </div>

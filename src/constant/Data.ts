@@ -50,21 +50,21 @@ export const FilterData = [
 export const picardData = [
   {
     id: 1,
-    src: "/11.jpg",
-    title: "Bromo mountain, Indonesia",
-    desc: "One of the highest and finest mountain in East Java Province",
+    src: "/1thapba.jpg",
+    title: "Ponagar Cham Towers, Nha Trang",
+    desc: "The largest Cham historical and cultural site in Vietnam",
   },
   {
     id: 2,
-    src: "/9.jpg",
-    title: "Lake house, Swiss",
-    desc: "Calming and homey family resort in the side of Gralus City",
+    src: "/2haidh.jpg",
+    title: "Institute of Oceanography, Nha Trang",
+    desc: "The Nha Trang Institute of Oceanography is one of the leading marine science research centers in Vietnam.",
   },
   {
     id: 3,
-    src: "/10.jpg",
-    title: "Pinetree mountain, Philippines",
-    desc: "The larget pine tree forest located in Balamban City in Cepu",
+    src: "/3tringuyen.jpg",
+    title: "Tri Nguyen Island, Nha Trang",
+    desc: "Tri Nguyen Island is a beautiful island in Nha Trang, famous for its unspoiled natural beauty, rustic charm, and the peaceful life of the local fishing village residents.",
   },
   {
     id: 4,
