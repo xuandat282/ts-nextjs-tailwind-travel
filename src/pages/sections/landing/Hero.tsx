@@ -57,7 +57,7 @@ const Hero = () => {
       <div className="hidden xs:flex flex-col items-center px-5 group lg:px-8">
         <div className="w-[22px] h-[22px] rounded-full bg-slate-100 mb-3 group-hover:animate-bounce"></div>
         <a
-          href="#about"
+          href="#information"
           className="flex justify-center items-center px-1 py-2 border-2 w-5 md:w-6 rounded-full backdrop-blur"
         >
           <Image

@@ -6,8 +6,8 @@ export const Navdata = [
     reference: "home",
   },
   {
-    title: "About",
-    reference: "about",
+    title: "Information",
+    reference: "information",
   },
   {
     title: "Destinations",
