@@ -72,40 +72,4 @@ export const picardData = [
     title: "The Cliffs of Moher, Ireland",
     desc: "The highest top stunning scenery view in Liscanor, County Clare",
   },
-  {
-    id: 6,
-    src: "/15.jpg",
-    title: "Ajodhya Hills, India",
-    desc: "The small plateau with hilly surroundings locatied in the Purulia",
-  },
-  {
-    id: 7,
-    src: "/16.jpg",
-    title: "Fuji mountain, Japan",
-    desc: "One of the highest and finest mountain in East Java Province",
-  },
-  {
-    id: 8,
-    src: "/17.jpg",
-    title: "Bromo mountain, Indonesia",
-    desc: "One of the highest and finest mountain in East Java Province",
-  },
-  {
-    id: 9,
-    src: "/22.jpg",
-    title: "Bromo mountain, Indonesia",
-    desc: "One of the highest and finest mountain in East Java Province",
-  },
-  {
-    id: 10,
-    src: "/19.jpg",
-    title: "Bromo mountain, Indonesia",
-    desc: "One of the highest and finest mountain in East Java Province",
-  },
-  {
-    id: 5,
-    src: "/14.jpg",
-    title: "Bromo mountain, Indonesia",
-    desc: "One of the highest and finest mountain in East Java Province",
-  },
 ];

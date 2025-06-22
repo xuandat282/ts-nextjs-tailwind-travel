@@ -36,7 +36,7 @@ const Hero = () => {
         </h1>
 
         {/* ✅ Slogan – chữ đậm gấp đôi */}
-        <p className="mt-3 text-white text-sm sm:text-base md:text-lg leading-relaxed max-w-xl font-bold">
+        <p className="mt-3 text-white text-sm sm:text-base md:text-lg leading-relaxed max-w-xl font-bold drop-shadow">
           Each step in Tourism is a breath of the Ocean.
           <br className="hidden md:inline" />
           Sea is not a choice – it is our future.

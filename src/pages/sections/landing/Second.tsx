@@ -18,7 +18,7 @@ const Second = () => {
           <div className="flex flex-col gap-y-10 lmd:w-[45%] px-6 box-border">
             <div className="flex flex-col gap-y-6">
               <h2 className="text-3xl font-bold text-gray-700 md:text-4xl lg:text-5xl lmd:max-w-lg">
-                SEA&ICE tour: Journey of discovery and learning 
+                SEA&ICE tour: Journey of discovery and learning<br />
                 Last for 2 days 1 night
               </h2>
               <div className="text-gray-700 text-base lg:text-lg space-y-2 leading-relaxed">
