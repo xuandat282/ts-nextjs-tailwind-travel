@@ -21,13 +21,25 @@ const Hero = () => {
         </a>
       </div>
       {/* hero */}
-<div className="flex flex-col items-center px-4">
-  <h1 className="whitespace-nowrap text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] text-slate-100 font-bold text-center">
+<div className="flex flex-col items-center px-4 text-center">
+  {/* Tiêu đề chính */}
+  {/* Máy tính: 1 dòng */}
+  <h1 className="hidden lg:block text-[2.5rem] text-slate-100 font-bold leading-tight">
     Journey of discovery and learning
   </h1>
-  <p className="mt-2 text-sm sm:text-base text-slate-300 text-center max-w-xl">
-    Each step in Tourism is a breath of the Ocean. Sea is not a choice – it is our future.
+
+  {/* Điện thoại & tablet: rớt dòng */}
+  <h1 className="block lg:hidden text-2xl sm:text-3xl md:text-4xl text-slate-100 font-bold leading-snug">
+    Journey of discovery<br />and learning
+  </h1>
+
+  {/* Slogan */}
+  <p className="mt-3 text-slate-300 text-sm sm:text-base md:text-lg leading-relaxed max-w-xl">
+    Each step in Tourism is a breath of the Ocean.<br className="hidden md:inline" />
+    Sea is not a choice – it is our future.
   </p>
+
+  {/* Nút CTA */}
   <div className="mt-6">
     <Link
       href="/Start"
