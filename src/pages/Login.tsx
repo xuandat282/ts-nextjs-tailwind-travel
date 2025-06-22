@@ -10,6 +10,7 @@ import PickAuth from "@/components/PickAuth";
 import ThirdPart from "@/components/ThirdPart";
 
 export default function Login() {
+ 
   const {
     register,
     handleSubmit,
