@@ -21,14 +21,14 @@ const Hero = () => {
         </a>
       </div>
       {/* hero */}
-<div className="flex flex-col items-center px-4 sm:px-6 md:px-8">
-  <h1 className="text-balance text-4xl sm:text-5xl md:text-6xl font-bold text-center text-slate-100 leading-snug max-w-4xl">
+<div className="flex flex-col items-center px-4">
+  <h1 className="whitespace-nowrap text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] text-slate-100 font-bold text-center">
     Journey of discovery and learning
   </h1>
   <div className="mt-6">
     <Link
       href="/Start"
-      className="border text-slate-100 px-6 py-2 text-lg rounded-full backdrop-blur-sm hover:px-8 hover:py-3 transition-all duration-300"
+      className="border text-slate-100 px-6 py-2 text-lg rounded-full backdrop-blur-sm transition-all duration-300 hover:px-8 hover:py-3"
     >
       Get started
     </Link>
