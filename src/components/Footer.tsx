@@ -34,82 +34,60 @@ const Footer = () => {
                 <h4 className="text-lg md:text-xl font-bold">
                   Travel Application
                 </h4>
-                <p className="text-sm lg:text-base max-w-xs">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                  libero, eveniet officia minima numquam at deleniti obcaecati
-                  illo dolores architecto ratione quod nisi
+                <p className="text-sm lg:text-base max-w-xs text-justify">
+                  Embark on a 2-day, 1-night journey of discovery in Nha Trang, filled with hands-on learning and real-life experiences. From Cham cultural heritage sites to the everyday rhythms of coastal fishing communities, you’ll explore, immerse yourself in nature, and learn how to farm, fish, and recycle. This trip connects knowledge, community, and the natural world. Join us and begin this meaningful adventure!
                 </p>
-              </div>
-              <div className="flex flex-col gap-y-2">
-                <Link
-                  href=""
-                  className="md:px-4 py-2 px-3 text-sm border border-slate-700 rounded-3xl flex items-center justify-center gap-x-2 max-w-sm font-semibold hover:bg-emerald-900 hover:text-slate-100"
-                >
-                  <FaApple size={20} /> Download on IOS
-                </Link>
-                <Link
-                  href=""
-                  className="md:px-4 py-2 px-3 text-sm border border-slate-700 rounded-3xl flex items-center justify-center gap-x-2 max-w-sm font-semibold hover:bg-emerald-900 hover:text-slate-100"
-                >
-                  <FaGooglePlay size={18} /> Download on Android
-                </Link>
               </div>
             </div>
           </div>
           {/* Link */}
           <div className="flex flex-col xl:w-2/5 gap-y-4 text-slate-700">
-            <h4 className="text-lg md:text-xl font-bold">Important Link</h4>
+            <h4 className="text-lg md:text-xl font-bold">Important Information </h4>
             <div className="flex items-center gap-x-24 text-sm lg:text-base">
               <ul>
                 <li>
-                  <a href="">Travel Brosure</a>
+                  <a href="">Gmail: oceanicase@gmail.com</a>
                 </li>
                 <li>
-                  <a href="">Customer Service</a>
+                  <a href="">Facebook: Oceanica Ntu</a>
                 </li>
                 <li>
-                  <a href="">Contact Us</a>
+                  <a href="">Instagram: oceanica_ntu</a>
                 </li>
                 <li>
-                  <a href="">About Travel</a>
+                  <a href="">Tiktok: OCEANICA</a>
                 </li>
                 <li>
-                  <a href="">FAQ</a>
+                  <a href="">Tel: +84 375375002</a>
                 </li>
                 <li>
-                  <a href="">Travel Services</a>
+                  <a href="">Tel: +84 907603146</a>
                 </li>
                 <li>
-                  <a href="">Flight Schedule</a>
-                </li>
-                <li>
-                  <a href="">Book Resort</a>
+                  <a href="">Tel: +84 905757444</a>
                 </li>
               </ul>
               <ul>
                 <li>
-                  <a href="">Travel Brosure</a>
+                  <a href="">Gmail: oceanicase@gmail.com</a>
                 </li>
                 <li>
-                  <a href="">Customer Service</a>
+                  <a href="">Facebook: Oceanica Ntu</a>
                 </li>
                 <li>
-                  <a href="">Contact Us</a>
+                  <a href="">Instagram: oceanica_ntu</a>
                 </li>
                 <li>
-                  <a href="">About Travel</a>
+                  <a href="">Tiktok: OCEANICA</a>
                 </li>
                 <li>
-                  <a href="">FAQ</a>
+                  <a href="">Tel: +84 375375002</a>
                 </li>
                 <li>
-                  <a href="">Travel Services</a>
+                  <a href="">Tel: +84 907603146</a>
                 </li>
                 <li>
-                  <a href="">Flight Schedule</a>
-                </li>
-                <li>
-                  <a href="">Book Resort</a>
+                  <a href="">Tel: +84 905757444</a>
                 </li>
               </ul>
             </div>
@@ -155,7 +133,7 @@ const Footer = () => {
           <div className="flex flex-wrap justify-between items-center min-h-[5rem] px-4 lg:px-16">
             <div className="">
               <Link href="" className="text-xs">
-                &#169; Inter Travel Systems B.V.2014 - 2023
+                &#169; Inter Travel Systems B.V.2025 - 2026
               </Link>
             </div>
             <div className="flex flex-wrap items-center gap-x-2">

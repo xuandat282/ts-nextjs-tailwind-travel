@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Revcard from "@/components/Revcard";
-import myImage from "@/../public/21.jpg";
+import myImage from "@/../public/caumuc.jpg";
 
 const Testi = () => {
   return (
@@ -22,8 +22,7 @@ const Testi = () => {
             </p>
           </div>
           <p className="text-center font-light max-w-md lg:text-lg">
-            Share your experience to help over 5 million travelers to decide
-            their journey in Travel
+            Share your experience to help other travelers make decisions for their journey with OCEANICA.
           </p>
           <div className="flex items-center gap-x-4">
             <Link
@@ -50,7 +49,7 @@ const Testi = () => {
                 company="Apple Company"
                 comment={myImage}
                 image="/pp2.jpg"
-                headline="It's a breathtaking journey"
+                headline="It's a wonderful experience."
               />
             </div>
             <div className="w-full p-5 card-shadow max-w-[21rem] lg:max-w-[25rem] bg-white absolute z-10 -top-[15%] right-1/4">

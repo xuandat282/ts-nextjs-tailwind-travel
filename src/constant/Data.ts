@@ -68,8 +68,8 @@ export const picardData = [
   },
   {
     id: 4,
-    src: "/12.jpg",
-    title: "The Cliffs of Moher, Ireland",
-    desc: "The highest top stunning scenery view in Liscanor, County Clare",
+    src: "/4lanbien.jpg",
+    title: "Raft Village, Nha Trang",
+    desc: "A place where you can learn, raise and catch seafood, and experience the real life of a fisherman., Nha Trang",
   },
 ];
