@@ -67,29 +67,6 @@ const Footer = () => {
                   <a href="">Tel: +84 905757444</a>
                 </li>
               </ul>
-              <ul>
-                <li>
-                  <a href="">Gmail: oceanicase@gmail.com</a>
-                </li>
-                <li>
-                  <a href="">Facebook: Oceanica Ntu</a>
-                </li>
-                <li>
-                  <a href="">Instagram: oceanica_ntu</a>
-                </li>
-                <li>
-                  <a href="">Tiktok: OCEANICA</a>
-                </li>
-                <li>
-                  <a href="">Tel: +84 375375002</a>
-                </li>
-                <li>
-                  <a href="">Tel: +84 907603146</a>
-                </li>
-                <li>
-                  <a href="">Tel: +84 905757444</a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
