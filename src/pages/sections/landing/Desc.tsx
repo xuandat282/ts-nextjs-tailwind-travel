@@ -17,8 +17,7 @@ const Desc = () => {
         <div className="basis-2/3 flex xl:basis-3/4">
           <div className="flex items-center justify-center text-sm px-2 sm:hidden">
             <h3>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum,
-              commodi!
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             </h3>
           </div>
           <div className="hidden sm:flex sm:w-full sm:items-center">
