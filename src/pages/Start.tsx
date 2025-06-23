@@ -52,7 +52,7 @@ export default function Login() {
 
 
   const [numPersons, setNumPersons] = useState(1);
-const pricePerPerson = 63;
+const pricePerPerson = 61;
 const totalPrice = numPersons * pricePerPerson;
 
   return (
