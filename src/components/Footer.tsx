@@ -43,7 +43,7 @@ const Footer = () => {
           {/* Link */}
           <div className="flex flex-col xl:w-2/5 gap-y-4 text-slate-700">
             <h4 className="text-lg md:text-xl font-bold">Important Information </h4>
-            <div className="flex items-center gap-x-24 text-sm lg:text-base">
+            <div className="flex items-center gap-x-24 text-sm lg:text-base ">
               <ul>
                 <li>
                   <a href="">Gmail: oceanicase@gmail.com</a>

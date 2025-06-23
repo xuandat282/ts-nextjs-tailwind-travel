@@ -37,7 +37,7 @@ const Header = () => {
       <div id='navbar' className='w-screen 2xl:container relative'>
         <div
           className={`flex items-center justify-between relative ${
-            dark ? "min-h-[4.5rem]" : " min-h-[5rem] md:min-h-[7rem]"
+            dark ? "min-h-[3rem]" : " min-h-[3.255rem] md:min-h-[4.5rem]"
           }`}
         >
           {/* Logo */}
