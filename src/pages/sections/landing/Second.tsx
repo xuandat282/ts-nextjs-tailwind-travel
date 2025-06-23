@@ -52,7 +52,7 @@ const Second = () => {
                 <div className="bg-gray-700 text-white px-6 py-4 rounded-md shadow-md text-center">
                   <p className="text-lg font-bold">PRICE:</p>
                   <p className="text-lg font-bold">SEA&ICE Tour:</p>
-                  <p>1 584 000 VND ~ $63 USD/person</p>
+                  <p>1 526 000 VND ~ $61 USD/person</p>
                 </div>
               </div>
             </div>
