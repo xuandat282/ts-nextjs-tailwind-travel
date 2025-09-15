@@ -28,7 +28,7 @@ const Hero = () => {
           className="hidden lg:block text-[2.5rem] text-white font-extrabold leading-tight"
           style={{ textShadow: '2px 2px 6px rgba(0, 0, 0, 0.5)' }}
         >
-          Journey of discovery and learning
+          Journey of discovery and
         </h1>
 
         <h1 className="block lg:hidden text-2xl sm:text-3xl md:text-4xl text-slate-100 font-bold leading-snug">
