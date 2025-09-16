@@ -45,7 +45,7 @@ const Header = () => {
             {/* Logo hình ảnh */}
             <Link href='/'>
               <img
-                src='/logo.png' // đặt logo trong thư mục /public
+                src='/logoy.png' // đặt logo trong thư mục /public
                 alt='Oceanica Logo'
                 className='w-16 h-16 object-contain'
               />
