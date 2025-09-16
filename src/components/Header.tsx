@@ -53,13 +53,13 @@ const Header = () => {
 
             {/* Tên thương hiệu */}
             <Link
-              href='/'
-              className={`hidden lg:inline text-lg sm:text-xl lg:text-[1.375rem] font-bold tracking-wide ${
-                dark ? "text-gray-700" : "text-gray-100"
-              }`}
-            >
-              Amore Travel
-            </Link>
+  href='/'
+  className={`hidden lg:inline whitespace-nowrap text-lg sm:text-xl lg:text-[1.375rem] font-bold tracking-wide ${
+    dark ? "text-gray-700" : "text-gray-100"
+  }`}
+>
+  Amore Travel
+</Link>
           </div>
           {/* navigation */}
           <Nav />
