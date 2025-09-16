@@ -58,7 +58,7 @@ const Header = () => {
                 dark ? "text-gray-700" : "text-gray-100"
               }`}
             >
-              OCEANICA
+              Amore Travel
             </Link>
           </div>
           {/* navigation */}
