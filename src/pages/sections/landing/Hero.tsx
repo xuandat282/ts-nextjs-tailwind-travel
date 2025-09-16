@@ -38,8 +38,7 @@ const Hero = () => {
         {/* ✅ Slogan – chữ đậm gấp đôi */}
         <p className="mt-3 text-white text-sm sm:text-base md:text-lg leading-relaxed max-w-xl font-bold drop-shadow">
           Discover Italia - Where Dreams Begin
-          <br className="hidden md:inline" />
-          Sea is not a choice – it is our future.
+        
         </p>
 
         {/* Nút CTA */}
